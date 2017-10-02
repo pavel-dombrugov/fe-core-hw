@@ -124,17 +124,23 @@ ol, ul, li {
 .list ul li:nth-of-type(3n-1) {background-color: #5db7de;}	
 .list ul li:nth-of-type(3n-2) {background-color: #0e1116;}
 .list ul li:hover {color: #ff0000;}
-.list ul li:before {content: ":-)";}	
+.list ul li:before {
+	content: "\2192";
+	margin-right: 10px;
+	display: inline-block;
+	}	
 .list ul {
     margin: 0;
     padding: 4px;
    }
 .list ul li {
-	width: 49%;
+	width: 50%;
 	display: inline-block;
     margin: 0px;
+    margin-left: -4px;
     border: 0px;
     padding-top: 3px;
 	text-align: center;
 	color: navy;
+	cursor: pointer;
 	}
