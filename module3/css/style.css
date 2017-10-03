@@ -1,11 +1,11 @@
 
 @font-face {
 	font-family: 'Pathway Gothic One';
-	src: url('../fonts/pathway-gothic-one.regular/PathwayGothicOne-Book.eot');
-	src: url('../fonts/pathway-gothic-one.regular/PathwayGothicOne-Book.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/pathway-gothic-one.regular/PathwayGothicOne-Book.woff2') format('woff2'),
-		url('../fonts/pathway-gothic-one.regular/PathwayGothicOne-Book.ttf') format('truetype'),
-		url('../fonts/pathway-gothic-one.regular/PathwayGothicOne-Book.svg#PathwayGothicOne-Book') format('svg');
+	src: url('../fonts/PathwayGothicOne-Book.eot');
+	src: url('../fonts/PathwayGothicOne-Book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PathwayGothicOne-Book.woff2') format('woff2'),
+		url('../fonts/PathwayGothicOne-Book.ttf') format('truetype'),
+		url('../fonts/PathwayGothicOne-Book.svg#PathwayGothicOne-Book') format('svg');
 	font-weight: 200;
 	font-style: normal;
 }
