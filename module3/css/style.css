@@ -31,14 +31,12 @@ ol, ul, li {
 	 list-style: none;
 	}
 .line{
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin: 65px 0px 45px;
 	color: #ccc;
 	}
 
 .wrapper{
 	width: 482px;
-	height: 1830px;
 	background-color: #fff;
 	border: 1px solid black;
 	margin: auto;
@@ -49,8 +47,6 @@ ol, ul, li {
 	height: 73px;
 	text-align: left;
 	color: #336;
-	box-sizing: border-box;
-	margin: auto;
 	}
 .head_img{
 	width: 406px;
@@ -59,35 +55,25 @@ ol, ul, li {
 .head_info{
 	height: 217px;
 	color: #333366;
-	margin: auto;
 	}
 .our_principles{
-	height: 420px;
 	color: #333366;
-	margin: auto;
 	}
 .what_we_offer{
-	height: 290px;
 	color: #333366;
-	margin: auto;
+	padding-bottom: 10px;
 	}
-
 .list ul {
-    margin: 0;
-    padding: 4px;
-   }
+	padding: 4px;
+	}
 .list ul li {
 	box-sizing: border-box;
 	width: 50%;
 	display: inline-block;
-    margin: 0px;
-    margin-left: -4px;
-    border: 0px;
-    padding-top: 3px;
-    padding-left: 15px;
+	margin-left: -4px;
+	padding: 3px 0px 0px 15px;
 	text-align: left;
 	color: navy;
-	cursor: pointer;
 	font-size: 10pt;
 	font-family: 'arial';
 	line-height: 200%}
