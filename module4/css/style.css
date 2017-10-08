@@ -1,0 +1,65 @@
+.wrapper {
+	width: 1025px;
+	margin: auto;
+	border: 1px solid black;
+	padding: 63px;
+	/*box-sizing: border-box;*/
+}
+
+.about {
+
+}
+
+.info {
+
+}
+
+.agency_profile {
+	display: inline-block;
+	width: 686px;
+}
+
+.ap_image {
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	margin: 0px 23px 23px 0;
+	}
+
+.ap_text {
+	display: inline-block;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.our_principles {
+	display: inline-block;
+	vertical-align: top;
+	width: 207px;
+	padding-left: 38px;
+}
+.our_principles ol {
+	list-style-type: decimal;
+}
+
+.what_we_offeer {
+	display: inline-block;
+	vertical-align: top;
+	width: 686px;
+}
+
+.what_we_offeer li{
+	display: inline-block;
+	width: 268px;
+}
+
+.testimonial {
+	display: inline-block;
+	vertical-align: top;
+	width: 207px;
+	padding: 22px;
+}
