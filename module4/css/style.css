@@ -105,5 +105,22 @@ h2 {
 	display: inline-block;
 	vertical-align: top;
 	width: 207px;
+	/**/
+}
+
+.testimonial h6 {
+	display: inline-block;
+	width: 100%;
 	padding: 22px;
+}
+.testimonial h5 {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.testimonial p {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
 }
