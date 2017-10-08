@@ -1,3 +1,39 @@
+@font-face {
+	font-family: 'Pathway Gothic One';
+	src: url('../fonts/PathwayGothicOne-Book.eot');
+	src: url('../fonts/PathwayGothicOne-Book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PathwayGothicOne-Book.woff2') format('woff2'),
+		url('../fonts/PathwayGothicOne-Book.ttf') format('truetype'),
+		url('../fonts/PathwayGothicOne-Book.svg#PathwayGothicOne-Book') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+
+p {
+	font-size: 13px;
+	line-height: 19px;
+	font-family: Arial;
+}
+
+h6 {
+	font-size: 15px;
+	line-height: 19px;
+	font-family: Arial;
+}
+
+h5 {
+	font-size: 16px;
+	line-height: 19px;
+	font-family: Arial;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 45px;
+	font-family: "Pathway Gothic One";
+}
+
+
 .wrapper {
 	width: 1025px;
 	margin: auto;
@@ -7,16 +43,15 @@
 }
 
 .about {
-
 }
 
 .info {
-
 }
 
 .agency_profile {
 	display: inline-block;
 	width: 686px;
+	padding-right: 44px;
 }
 
 .ap_image {
@@ -46,16 +81,25 @@
 	list-style-type: decimal;
 }
 
-.what_we_offeer {
+.what_we_offer {
 	display: inline-block;
 	vertical-align: top;
 	width: 686px;
+	padding-right: 44px;
 }
 
-.what_we_offeer li{
+.what_we_offer ul{
+	list-style-image: url(../img/arrow.png);
+}
+
+.what_we_offer ul li{
 	display: inline-block;
 	width: 268px;
+	font-family: Arial;
+	font-style: 15px;
+	line-height: 23px;
 }
+
 
 .testimonial {
 	display: inline-block;
