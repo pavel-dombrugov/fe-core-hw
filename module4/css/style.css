@@ -39,7 +39,6 @@ h2 {
 	margin: auto;
 	border: 1px solid black;
 	padding: 63px;
-	/*box-sizing: border-box;*/
 }
 
 .about {
@@ -105,7 +104,6 @@ h2 {
 	display: inline-block;
 	vertical-align: top;
 	width: 207px;
-	/**/
 }
 
 .testimonial h6 {
