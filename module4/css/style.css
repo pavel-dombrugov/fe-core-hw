@@ -39,10 +39,10 @@ h2 {
 	margin: auto;
 	border: 1px solid black;
 	padding: 63px;
-	/*box-sizing: border-box;*/
 }
 
-.about {
+.about h6{
+	margin-bottom: 15px;
 }
 
 .info {
@@ -52,6 +52,10 @@ h2 {
 	display: inline-block;
 	width: 686px;
 	padding-right: 44px;
+}
+
+.agency_profile h2{
+	margin-bottom: 50px;
 }
 
 .ap_image {
@@ -81,6 +85,18 @@ h2 {
 	list-style-type: decimal;
 }
 
+.our_principles h2{
+	margin-bottom: 50px;
+}
+
+.our_principles p{
+	margin-bottom: 30px;
+}
+
+.hr {
+	margin: 53px 0 58px 0;
+}
+
 .what_we_offer {
 	display: inline-block;
 	vertical-align: top;
@@ -88,24 +104,38 @@ h2 {
 	padding-right: 44px;
 }
 
-.what_we_offer ul{
-	list-style-image: url(../img/arrow.png);
-}
-
 .what_we_offer ul li{
 	display: inline-block;
 	width: 268px;
 	font-family: Arial;
-	font-style: 15px;
-	line-height: 23px;
+	font-size: 15px;
+	margin-bottom: 23px;
+	padding-left: 20px;
 }
 
+.what_we_offer li::before {
+	content: url(../img/arrow.png);
+	position: relative;
+	left: -20px;
+}
+
+.what_we_offer h2{
+	margin-bottom: 65px;
+}
+
+.what_we_offer h6{
+	margin-bottom: 30px;
+}
+
+.what_we_offer P{
+	margin-bottom: 25px;
+}
 
 .testimonial {
 	display: inline-block;
 	vertical-align: top;
 	width: 207px;
-	/**/
+	box-sizing: border-box;
 }
 
 .testimonial h6 {
@@ -119,8 +149,52 @@ h2 {
 	text-align: center;
 }
 
+.testimonial_bg {
+	border: 1px solid #dfdcdc;
+	background-color: #fcfafa;
+	border-radius: 5px;
+	padding: 21px;
+	position: relative;
+	margin-bottom: 63px;
+	font-size: 15px;
+	line-height: 19px;
+	font-family: Arial;
+	}
+.testimonial_bg::before {
+	content: ''; 
+	position: absolute;
+	left: 93px; bottom: -25px;
+	border: 10px solid transparent;
+	border-top: 15px solid #dfdcdc;
+	}
+.testimonial_bg::after {
+	content: ''; 
+	position: absolute;
+	left: 93px; bottom: -20px;
+	border: 10px solid transparent;
+	border-top: 10px solid #dfdcdc;
+	border-top: 16px solid #fcfafa;
+	bottom: -24px; 
+	}
+
+.testimonial_bg h6 {
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+}
+
+.testimonial h5 {
+	margin-bottom: 20px;
+}
+
+
 .testimonial p {
 	display: inline-block;
 	width: 100%;
 	text-align: center;
 }
+
+.testimonial h2{
+	margin-bottom: 65px;
+}
+
