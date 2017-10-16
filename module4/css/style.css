@@ -81,8 +81,35 @@ h2 {
 	width: 207px;
 	padding-left: 38px;
 }
+
+body {
+	counter-reset: principles;
+}
+
+.our_principles ol li{
+	list-style-position: outside;
+}
+
+/*.our_principles ol li::before {
+	counter-increment: principles;
+	content: counter(principles);
+	position: relative;
+	left: -20px;
+	bottom: -40px;
+}*/
+
 .our_principles ol {
 	list-style-type: decimal;
+}
+/*.our_principles ol li h6::before {
+	content: url(../img/circle.png);
+	position: relative;
+	left: 0px;
+	bottom: 0px;
+}*/
+
+.our_principles ol li h6 {
+	padding-left: 0px;
 }
 
 .our_principles h2{
