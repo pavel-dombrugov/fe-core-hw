@@ -168,7 +168,7 @@ main {
 
 article {
 	position: relative;
-	
+	height: 340px;
 }
 
 article h2 {
@@ -230,11 +230,15 @@ article h2 {
 }
 
 .center {
+	width: 288px;
+	height: 270px;
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%);
 }
 .right {
+	width: 288px;
+	height: 270px;
 	position: absolute;
 	right: 0;
 }
