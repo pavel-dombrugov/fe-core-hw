@@ -113,8 +113,30 @@ nav ol li:hover {
 .head {
 	width: auto;
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+}
+
+.date {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: blue;
+	margin: 0;
+}
+
+.caption {
+	width: auto;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.c_info {
+	width: auto;
+}
+
+.p_info {
+	width: auto;
 }
 
 .art {
@@ -124,8 +146,23 @@ nav ol li:hover {
 	justify-content: space-between;
 }
 
-.details {
+.prewiew {
+	height: 225px;
+	width: 288px;
+}
 
+.description h4{
+	margin: 0 10px 10px 0;
+}
+
+.details {
+	width: 100px;
+	height: 20px;
+	border-radius: 5px;
+	background-color: blue;
+	border-color: black;
+	margin: auto;
+	text-align: center;
 }
 
 .cat_arch {
