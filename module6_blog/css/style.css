@@ -92,7 +92,7 @@ nav ol li:hover {
 
 .main {
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
 	justify-content: space-between;
 }
 
@@ -101,6 +101,31 @@ nav ol li:hover {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
+}
+
+.post {
+	width: auto;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+}
+
+.head {
+	width: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.art {
+	width: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.details {
+
 }
 
 .cat_arch {
@@ -130,4 +155,78 @@ nav ol li:hover {
 
 .li_arc:before {
 	content: url(../img/arrow.png);
+}
+
+.info {
+	height: 135px;
+	background-color: #336;
+	padding-top: 40px;
+	padding-left: 138px;
+}
+
+.info ol {
+	padding: 0;
+}
+
+.info ol li {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 190px;
+	height: 28px;
+	color: #fff;
+	vertical-align: text-top;
+	font-family: 'Pathway Gothic One';
+	font-size: 16px;
+}
+
+.links {
+	height: 125px;
+}
+.social {
+	margin: auto;
+	text-align: center;
+
+}
+
+.tw {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	margin: 30px 5px 20px 5px;
+}
+.fb {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	background-position: -52px 0;
+	margin: 30px 5px 20px 5px;
+}
+.gl {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	background-position: -106px 0;
+	margin: 30px 5px 20px 5px;
+}
+.li {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	background-position: -158px 0;
+	margin: 30px 5px 20px 5px;
+}
+
+.links p {
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
 }
