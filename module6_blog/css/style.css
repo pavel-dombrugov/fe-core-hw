@@ -1,0 +1,133 @@
+body {
+	background: url(../img/background.jpg) no-repeat;
+	background-size: cover;
+}
+
+.wrapper {
+	width: 1024px;
+	margin: auto;
+}
+
+.main {
+	box-sizing: border-box;
+	padding: 60px 60px 100px 60px;
+	background-color: #fff;
+}
+
+header {
+	box-sizing: border-box;
+	width: 1024px;
+	margin: auto;
+	padding: 60px;
+}
+
+.logo {
+	width: 140px;
+	height: 140px;
+	border-radius: 70px;
+	background-color: rgba(100%, 100%, 100%, 1);
+	border-style: solid 1px black;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+	line-height: 140px;
+	font-family: dorsa;
+	font-size: 48px;
+}
+
+nav {
+	position: relative;
+}
+
+nav ol {
+	font-family: 'Pathway Gothic One';
+	font-size: 28px;
+	position: absolute;
+	top: -115px;
+	color: white;
+}
+
+nav ol li {
+	display: inline-block;
+	width: 108px;
+}
+
+nav ol li:hover {
+	color: black;
+}
+
+.li_r {
+	padding-left: 184px;
+}
+
+.menu {
+	position: relative;
+}
+
+.sub_menu {
+	box-sizing: border-box;
+	width: 63px;
+	height: 83px;
+	border-radius: 3px;
+	background-color: #fff;
+	position: absolute;
+	top: 33px;
+	left: -6px;
+	color: #669;
+	font-size: 20px;
+	text-align:center;
+	display: none;
+}
+
+.sub_menu li {
+	position: relative;
+	left: -62px;
+	top: 5px;
+}
+
+.menu:hover .sub_menu {
+	display: block;
+}
+
+.main {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.recent_post {
+	width: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.cat_arch {
+	width: 210px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.cat_arch {
+	flex-direction: column;
+}
+
+.li_cat {
+	height: 33px;
+	padding-left: 5px;
+}
+
+.li_cat:before {
+	content: url(../img/arrow.png);
+}
+
+.li_arc {
+	height: 33px;
+	padding-left: 15px;
+}
+
+.li_arc:before {
+	content: url(../img/arrow.png);
+}
