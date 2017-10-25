@@ -138,6 +138,48 @@ nav ol li:hover {
 	height: 125px;
 }
 
+.social {
+	margin: auto;
+	text-align: center;
+
+}
+
+.tw {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	margin: 30px 5px 20px 5px;
+}
+.fb {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	background-position: -52px 0;
+	margin: 30px 5px 20px 5px;
+}
+.gl {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	background-position: -106px 0;
+	margin: 30px 5px 20px 5px;
+}
+.li {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	background-position: -158px 0;
+	margin: 30px 5px 20px 5px;
+}
+
 .links p {
 	font-family: Arial;
 	font-size: 12px;
