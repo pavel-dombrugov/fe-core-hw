@@ -1,0 +1,252 @@
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MyriadPro-Regular.eot');
+	src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MyriadPro-Regular.woff') format('woff'),
+		url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pathway Gothic One';
+	src: url('../fonts/PathwayGothicOne-Book.eot');
+	src: url('../fonts/PathwayGothicOne-Book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PathwayGothicOne-Book.woff2') format('woff2'),
+		url('../fonts/PathwayGothicOne-Book.ttf') format('truetype'),
+		url('../fonts/PathwayGothicOne-Book.svg#PathwayGothicOne-Book') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+
+body {
+	background: url(../img/background.jpg) no-repeat;
+	background-size: cover;
+}
+
+.wrapper {
+	width: 1024px;
+	margin: auto;
+}
+
+.main {
+	box-sizing: border-box;
+	padding: 60px 60px 100px 60px;
+	background-color: #fff;
+}
+
+header {
+	box-sizing: border-box;
+	width: 1024px;
+	margin: auto;
+	padding: 60px;
+}
+
+.logo {
+	width: 140px;
+	height: 140px;
+	border-radius: 70px;
+	background-color: rgba(100%, 100%, 100%, 1);
+	border-style: solid 1px black;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+	line-height: 140px;
+	font-family: dorsa;
+	font-size: 48px;
+}
+
+nav {
+	position: relative;
+}
+
+nav ol {
+	font-family: 'Pathway Gothic One';
+	font-size: 28px;
+	position: absolute;
+	top: -115px;
+	color: white;
+}
+
+nav ol li {
+	display: inline-block;
+	width: 108px;
+}
+
+nav ol li:hover {
+	color: black;
+}
+
+.li_r {
+	padding-left: 184px;
+}
+
+.menu {
+	position: relative;
+}
+
+.sub_menu {
+	box-sizing: border-box;
+	width: 63px;
+	height: 83px;
+	border-radius: 3px;
+	background-color: #fff;
+	position: absolute;
+	top: 33px;
+	left: -6px;
+	color: #669;
+	font-size: 20px;
+	text-align:center;
+	display: none;
+}
+
+.sub_menu li {
+	position: relative;
+	left: -62px;
+	top: 5px;
+}
+
+.menu:hover .sub_menu {
+	display: block;
+}
+
+.main {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.main h2 {
+	font-family: 'Myriad Pro';
+	font-size: 32px;
+	margin:40px 0 45px;
+}
+.map {
+
+}
+
+iframe {
+	width: 440px;
+	height: 420px;
+	border: none;
+}
+
+.contacts {
+	width: 210px;
+	margin-top: 117px;
+}
+
+.red {color: red;}
+
+caption {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.tb {
+	margin-bottom: 50px;
+}
+
+.feedback {
+	width: 210px;
+}
+
+.form {
+			width: 210px;
+		}
+		
+.act {
+	text-align: right;;
+}
+
+.button {
+	width: 80px;
+	height: 27px;
+	border: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	margin-left: 10px;
+}
+
+.form p {display: block;}
+
+#name {width: 203px;}
+#mail {width: 203px;}
+#subj {width: 203px;}
+#mess {width: 203px;height: 230px;}
+textarea {resize: none;}
+
+.info {
+	height: 135px;
+	background-color: #336;
+	padding-top: 40px;
+	padding-left: 138px;
+}
+
+.info ol {
+	padding: 0;
+}
+
+.info ol li {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 190px;
+	height: 28px;
+	color: #fff;
+	vertical-align: text-top;
+	font-family: 'Pathway Gothic One';
+	font-size: 16px;
+}
+
+.links {
+	height: 125px;
+}
+.social {
+	margin: auto;
+	text-align: center;
+
+}
+
+.tw {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	margin: 30px 5px 20px 5px;
+}
+.fb {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	background-position: -52px 0;
+	margin: 30px 5px 20px 5px;
+}
+.gl {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	background-position: -106px 0;
+	margin: 30px 5px 20px 5px;
+}
+.li {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	background-position: -158px 0;
+	margin: 30px 5px 20px 5px;
+}
+
+.links p {
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+}
