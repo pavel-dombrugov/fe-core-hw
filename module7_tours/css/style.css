@@ -202,7 +202,11 @@ nav ol li:hover {
 	width: 210px;
 }
 
-select {width: 208px; height: 20px;}
+select {
+	width: 208px;
+	height: 20px;
+	font-size: 10px;
+}
 textarea {resize: none;
 	width: 203px;
 	height: 40px;
