@@ -1,0 +1,303 @@
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MyriadPro-Regular.eot');
+	src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MyriadPro-Regular.woff') format('woff'),
+		url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pathway Gothic One';
+	src: url('../fonts/PathwayGothicOne-Book.eot');
+	src: url('../fonts/PathwayGothicOne-Book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PathwayGothicOne-Book.woff2') format('woff2'),
+		url('../fonts/PathwayGothicOne-Book.ttf') format('truetype'),
+		url('../fonts/PathwayGothicOne-Book.svg#PathwayGothicOne-Book') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+
+body {
+	background: url(../img/background.jpg) no-repeat;
+	background-size: cover;
+}
+
+.wrapper {
+	width: 1024px;
+	margin: auto;
+}
+
+header {
+	box-sizing: border-box;
+	width: 1024px;
+	margin: auto;
+	padding: 60px;
+}
+
+.logo {
+	width: 140px;
+	height: 140px;
+	border-radius: 70px;
+	background-color: rgba(100%, 100%, 100%, 1);
+	border-style: solid 1px black;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+	line-height: 140px;
+	font-family: dorsa;
+	font-size: 48px;
+}
+
+nav {
+	position: relative;
+}
+
+nav ol {
+	font-family: 'Pathway Gothic One';
+	font-size: 28px;
+	position: absolute;
+	top: -115px;
+	color: white;
+}
+
+nav ol li {
+	display: inline-block;
+	width: 108px;
+}
+
+nav ol li:hover {
+	color: black;
+}
+
+.li_r {
+	margin-left: 184px;
+}
+
+.menu {
+	position: relative;
+}
+
+.sub_menu {
+	box-sizing: border-box;
+	width: 63px;
+	height: 83px;
+	border-radius: 3px;
+	background-color: #fff;
+	position: absolute;
+	top: 33px;
+	left: -6px;
+	color: #669;
+	font-size: 20px;
+	text-align:center;
+	display: none;
+}
+
+.sub_menu li {
+	position: relative;
+	left: -62px;
+	top: 5px;
+}
+
+.menu:hover .sub_menu {
+	display: block;
+}
+
+.main {
+	box-sizing: border-box;
+	padding: 60px 60px 100px 60px;
+	background-color: #fff;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.main h2 {
+	font-family: 'Pathway Gothic One';
+	font-size: 32px;
+	margin:40px 0 45px;
+}
+
+.tit {
+	width: 100%;
+	margin: 0;
+}
+
+.tours {
+	width: 605px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row wrap;
+}
+.proposal {
+	width: 300px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+
+.proposal h5 {font-family: arial; font-size: 12px; margin: 0; color: #3f4a64}
+.proposal h4 {font-family: arial; font-size: 13px; margin: 2px 0 0 0; color: #7dc6ec;}
+.proposal p {font-family: arial; font-size: 10px; margin: 0; color: #3f4a64}
+
+.p_info {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin: 0;
+}
+
+.photo {
+	width: 133px;
+	height: 114px;
+	margin-right: 20px;
+}
+.data { 
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+.title {
+	
+}
+.price {
+	margin-top: 11px;
+}
+.details {
+	width: 60px;
+	height: 20px;
+	border-radius: 5px;
+	background-color: #f0f0f0;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #bbb4b4;
+	margin: 16px auto 40px;
+	text-align: center;
+}
+
+.aside {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: column;
+	width: 210px;
+}
+
+select {width: 208px; height: 20px;}
+textarea {resize: none;
+	width: 203px;
+	height: 40px;
+}
+
+.search h2 {
+	margin-top: 15px;
+}
+.aside p {
+	margin: 8px;
+	font-family: arial;
+	font-size: 10px;
+	font-weight: 600;
+}
+
+ .aside form {
+	font-family: arial;
+	font-size: 10px;
+	font-weight: 600;
+}
+
+
+
+.blue {color: #3399cc;}
+
+.info {
+	height: 135px;
+	background-color: #336;
+	padding-top: 40px;
+	padding-left: 138px;
+}
+
+.info ol {
+	padding: 0;
+}
+
+.info ol li {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 190px;
+	height: 28px;
+	color: #fff;
+	vertical-align: text-top;
+	font-family: 'Pathway Gothic One';
+	font-size: 16px;
+}
+
+.links {
+	height: 125px;
+}
+.social {
+	margin: auto;
+	text-align: center;
+
+}
+
+.tw {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	margin: 30px 5px 20px 5px;
+}
+.fb {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	background-position: -52px 0;
+	margin: 30px 5px 20px 5px;
+}
+.gl {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	background-position: -106px 0;
+	margin: 30px 5px 20px 5px;
+}
+.li {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	background-position: -158px 0;
+	margin: 30px 5px 20px 5px;
+}
+
+.links p {
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+}
