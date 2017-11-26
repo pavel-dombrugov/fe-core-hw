@@ -1,0 +1,173 @@
+.wrapper {
+	width: 1024px;
+	margin: auto;
+}
+
+.main {
+	box-sizing: border-box;
+	padding: 60px 60px 100px 60px;
+	background-color: #fff;
+}
+
+header {
+	box-sizing: border-box;
+	width: 1024px;
+	margin: auto;
+	padding: 60px;
+}
+
+.logo {
+	width: 140px;
+	height: 140px;
+	border-radius: 70px;
+	background-color: rgba(100%, 100%, 100%, 1);
+	border-style: solid 1px black;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+	line-height: 140px;
+	font-family: dorsa;
+	font-size: 48px;
+}
+
+nav {
+	position: relative;
+  ol {
+    font-family: 'Pathway Gothic One';
+    font-size: 28px;
+    position: absolute;
+    top: -115px;
+    color: white;
+    li {
+      display: inline-block;
+      width: 108px;
+        &:hover {
+	        color: black;
+        }
+      }
+    }
+  }
+
+.li_r {
+	padding-left: 184px;
+}
+
+.menu {
+	position: relative;
+    &:hover .sub_menu {
+	    display: block;
+      }
+  }
+
+.sub_menu {
+	box-sizing: border-box;
+	width: 63px;
+	height: 83px;
+	border-radius: 3px;
+	background-color: #fff;
+	position: absolute;
+	top: 33px;
+	left: -6px;
+	color: #669;
+	font-size: 20px;
+	text-align:center;
+	display: none;
+    li {
+      position: relative;
+      left: -62px;
+      top: 5px;
+       }
+  }
+
+.gallery {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+    h2 {
+      margin: 0;
+      padding: 30px 0 48px 0;
+      width: 100%;
+      font-family: 'Pathway Gothic One';
+      font-size: 32px;
+      color: #336;
+    }
+  }
+
+.prewiew {
+	height: 154px;
+	width: 288px;
+	padding-bottom: 40px;
+}
+
+.info {
+	height: 135px;
+	background-color: #336;
+	padding-top: 40px;
+	padding-left: 138px;
+    ol {
+	    padding: 0;
+        li {
+          display: inline-block;
+          box-sizing: border-box;
+          width: 190px;
+          height: 28px;
+          color: #fff;
+          vertical-align: text-top;
+          font-family: 'Pathway Gothic One';
+          font-size: 16px;
+          }
+      }
+  }
+
+.links {
+	height: 125px;
+    p {
+      font-family: Arial;
+      font-size: 12px;
+      color: #fff;
+      text-align: center;
+    }
+}
+
+.social {
+	margin: auto;
+	text-align: center;
+
+}
+
+.tw {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	margin: 30px 5px 20px 5px;
+}
+.fb {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	background-position: -52px 0;
+	margin: 30px 5px 20px 5px;
+}
+.gl {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	background-position: -106px 0;
+	margin: 30px 5px 20px 5px;
+}
+.li {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(../img/social.png) no-repeat;
+	background-position: -158px 0;
+	margin: 30px 5px 20px 5px;
+}
